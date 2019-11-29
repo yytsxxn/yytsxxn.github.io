@@ -29,6 +29,9 @@ body{
 #menu-item a{
     color:#57658be6;
 }
+#menu-item a:hover{
+    color:#2b56cce6;
+}
 .content{
     color:#fff;
 }
