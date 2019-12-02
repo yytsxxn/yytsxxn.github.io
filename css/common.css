@@ -21,7 +21,7 @@ body{
     line-height:80px;
     font-size:20px;
     margin-left:60%;
-    overflow:hidden;
+   /* overflow:hidden;*/
 }
 #menu-item{
     float:left;
@@ -32,4 +32,25 @@ body{
 }
 #menu-item a:hover{
     color:#2b56cce6;
+}
+#weChat-img img{
+    width:260px;
+    position:absolute;
+    margin:8px -55px;
+}
+#weChat-img{
+    position: absolute;
+    margin:-28px 36px;
+    display: none;
+}
+#weChat-img::after{
+    content:'';
+    width:0;
+    height: 0;
+	border:4px solid transparent;
+	border-bottom:4px solid #f7f7f7;
+    position: absolute;
+}
+#menu-item:hover #weChat-img{
+    display: block;
 }
